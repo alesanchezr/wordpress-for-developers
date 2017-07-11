@@ -77,13 +77,13 @@ Thumbs.db
 
 # ignore everything in the "wp-content" directory, except:
 # "plugins" directory (ignore the content but not the directory itself)
-# "themes" directory
+# and the whole "themes" directory
 wp-content/*
 !wp-content/plugins/
 wp-content/plugins/*
 
-!wp-content/themes/*
-!wp-content/themes/_tk-child
+!wp-content/themes/
+wp-content/themes/_tk
 
 # ignore these plugins
 wp-content/plugins/hello.php
