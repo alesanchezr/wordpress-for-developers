@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/akismet": "3.1.1",
+        "wpackagist-plugin/w3-total-cache": "*",
+        "wpackagist-plugin/duplicator": "*",
+        "wpackagist-plugin/wordpress-seo": "*"
+    }
+}
