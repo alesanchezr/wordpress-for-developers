@@ -76,12 +76,13 @@ Thumbs.db
 *.zip
 
 # ignore everything in the "wp-content" directory, except:
-# "mu-plugins" directory
-# "plugins" directory
+# "plugins" directory (ignore the content but not the directory itself)
 # "themes" directory
 wp-content/*
 !wp-content/plugins/
-!wp-content/themes/
+wp-content/plugins/*
+
+!wp-content/themes/*
 
 # ignore these plugins
 wp-content/plugins/hello.php
