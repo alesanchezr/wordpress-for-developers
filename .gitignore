@@ -83,6 +83,7 @@ wp-content/*
 wp-content/plugins/*
 
 !wp-content/themes/*
+!wp-content/themes/_tk-child
 
 # ignore these plugins
 wp-content/plugins/hello.php
