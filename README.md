@@ -1,12 +1,13 @@
 # Wordpress Bootstraper
 
-This is the sexiest developer bootstraping theme for WordPress CMS, it is the perfect starting theme and it has all you need to start coding right away, here are some of the perks:
-- Extend the [_tk parent theme](https://github.com/Themekraft/_tk) (one of the most recomended base themes).
+This is the sexiest developer starting theme for The WordPress CMS, it has all you need to start coding right away and feeling like a real developer, here are some of the perks:
+- Bootstrap 3: Extend the [_tk parent theme](https://github.com/Themekraft/_tk) (one of the most recomended base themes).
 - Using [Composer](https://wpackagist.org/) as package manager for everything (including plugins).
 - Using the command line to install and manage wordpress ([WP-CLI](http://wp-cli.org/)).
 - The perfect .gitignore to only upload the minimum files.
-- Laravel Eloquent ORM [Eloquent ORM](https://github.com/tareq1988/wp-eloquent) for any database operation.
+- Laravel Eloquent ORM [Eloquent ORM](https://github.com/tareq1988/wp-eloquent) for any database extend (use the WP_Query or any other WordPress function if your are working on your own tables).
 - A few plugins already suggested on composer.json based on my experience.
+- A lot of examples on how to do stuff inside your wordpress.
 
 ## Installing Wordpress
 
@@ -52,7 +53,9 @@ $ composer install
 
 ## Author
 
-* **Alejandro Sanchez** - *Initial work* - [Wordpress For Developers](https://github.com/alesanchezr/wordpress-for-developers)
+**Alejandro Sanchez**
+- Repository website: [Wordpress For Developers](https://github.com/alesanchezr/wordpress-for-developers)
+- About me: [alesanchezr.com](alesanchezr.com)
 
 ## License
 
