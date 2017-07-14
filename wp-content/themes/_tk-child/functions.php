@@ -1,12 +1,18 @@
 <?php
 
     /**
+     * DO NOT DELETE!!!
      * Autoload for PHP Composer and definition of the ABSPATH
      */
+     
+     //defining the absolute path for the wordpress instalation.
     if ( !defined('ABSPATH') ) define('ABSPATH', dirname(__FILE__) . '/');
+    
+    //including composer autoload
     require ABSPATH."vendor/autoload.php";
 
     /**
+     * DO NOT DELETE!!!
      * Here we are importing the Styles of the parent theme and re-using them
      * for our own project, please don't edit this hook/function
      */
@@ -15,49 +21,17 @@
         wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
     
     }
-
-    /**
-     * This is an example of usage for the Eloquent ORM
-
-        $db = \WeDevs\ORM\Eloquent\Database::instance();
-        
-        var_dump( $db->table('users')->find(1) );
-        var_dump( $db->select('SELECT * FROM wp_users WHERE id = ?', [1]) );
-        var_dump( $db->table('users')->where('user_login', 'john')->first() );
-    */
     
     /** 
-     * Start your own functions here
+     * EXAMPLES!
+     * Uncomment any of these examples to see them working.
      */
      
-     function create_custom_post_course() {
+     //require('examples/eloquent-orm.php'); //Using the best PHP based ORM
+     //require('examples/custom-post.php'); //Create a custom post type
 
-        $labels = array(
-            'name'               => _x( 'Courses', 'post type general name' ),
-            'singular_name'      => _x( 'Course', 'post type singular name' ),
-            'add_new'            => _x( 'Add New', 'Course' ),
-            'add_new_item'       => __( 'Add New Course' ),
-            'edit_item'          => __( 'Edit Course' ),
-            'new_item'           => __( 'New Course' ),
-            'all_items'          => __( 'All Courses' ),
-            'view_item'          => __( 'View Course' ),
-            'search_items'       => __( 'Search Courses' ),
-            'not_found'          => __( 'No Courses found' ),
-            'not_found_in_trash' => __( 'No Courses found in the Trash' ),
-            'parent_item_colon'  => '',
-            'menu_name'          => 'Courses'
-          );     
-         
-      $args = array(
-        'labels'        => $labels,
-        'description'   => 'Displays courses',
-        'public'        => true,
-        'menu_position' => 3,
-        'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
-        'has_archive'   => true,
-      );
-      register_post_type( 'course', $args );
-    }
-    add_action( 'init', 'create_custom_post_course' );
+    /** 
+     * WRITE YOUR OWN CODE BELOW THIS LINE
+     */
      
 ?>
