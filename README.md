@@ -1,14 +1,14 @@
-#Wordpress Bootstraper
+# Wordpress Bootstraper
 
 This is the sexiest developer bootstraping theme for WordPress CMS, it is the perfect starting theme and it has all you need to start coding right away, here are some of the perks:
-- Using the _tk parent theme (one of the most recomended base themes).
-- Using composer as package manager for everything (including plugins).
-- Using the command line to install and manage wordpress (WP-CLI).
+- Extend the [_tk parent theme](https://github.com/Themekraft/_tk) (one of the most recomended base themes).
+- Using [Composer](https://wpackagist.org/) as package manager for everything (including plugins).
+- Using the command line to install and manage wordpress ([WP-CLI](http://wp-cli.org/)).
 - The perfect .gitignore to only upload the minimum files.
-- Laravel Eloquent ORM for any database operation.
+- Laravel Eloquent ORM [Eloquent ORM](https://github.com/tareq1988/wp-eloquent) for any database operation.
 - A few plugins already suggested on composer.json based on my experience.
 
-##Installing Wordpress
+## Installing Wordpress
 
 0) Clone this repository and then change the remote to your own repository
 > git clone git@github.com:alesanchezr/wordpress-for-developers.git
@@ -33,7 +33,9 @@ Here you can find [all wp commands](https://developer.wordpress.org/cli/commands
 
 6) Test your wordpress instalation (login) by going to /wp-admin
 
-7) If everything is ok, check your composer.json remove or add any plugins based on your taste and run:
+7) [Install composer](https://getcomposer.org/download/) (if needed)
+
+8) If everything is ok, check your composer.json remove or add any plugins based on your taste and run:
 > composer install
 
 ## Author
