@@ -1,4 +1,4 @@
-# Wordpress Bootstraper
+# Wordpress Developer Starter Theme
 
 This is the sexiest developer starting theme for The WordPress CMS, it has all you need to start coding right away and feeling like a real developer, here are some of the perks:
 - Bootstrap 3: Extend the [_tk parent theme](https://github.com/Themekraft/_tk) (one of the most recomended base themes).
