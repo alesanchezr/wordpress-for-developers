@@ -7,7 +7,6 @@
     ],
     "require": {
         "tareq1988/wp-eloquent": "dev-master",
-        "wpackagist-theme/_tk": "*",
         "wpackagist-plugin/akismet": "3.1.1",
         "wpackagist-plugin/w3-total-cache": "*",
         "wpackagist-plugin/duplicator": "*",
