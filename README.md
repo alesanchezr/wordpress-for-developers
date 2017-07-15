@@ -1,9 +1,11 @@
-# Wordpress Developer Starter Theme
+# Wordpress for Developers
 
-This is the sexiest starter theme for The WordPress CMS, it has all you need to start coding right away.
+**Disclaimer**: this is not a "customization" of the wordpress core. Not a single core file was harmed nor changed for this toolset. We follow the cardinal rule of Wordpress [**don't change the core**](https://getflywheel.com/layout/wp-core/). And we encourage you to do so.
+
+This is the sexiest toolset built on top of Wordpress, it has all you need to start coding right away.
 
 This is what makes it sexy:
-- **Beautifully looking out-of-the-box**: Bootstrap 3 installed, extends the [_tk parent theme](https://github.com/Themekraft/_tk), one of the most recomended base themes.
+- **Beautifully looking out-of-the-box**: extends the [_tk parent theme](https://github.com/Themekraft/_tk), one of the most recomended base themes with Bootstrap 3.
 - **Organized package manager**: use [Composer](https://wpackagist.org/) as package manager for everything, including plugins. That means no need for admin screens.
 - **Command and conquer**: use the command line to install and manage wordpress ([WP-CLI](http://wp-cli.org/)). That means no need for admin screens.
 - **Ignore the noise**: it comes with the perfect .gitignore to only upload the necessary files. 
@@ -99,9 +101,19 @@ $ composer install
 - Repository website: [Wordpress For Developers](https://github.com/alesanchezr/wordpress-for-developers)
 - About me: [alesanchezr.com](alesanchezr.com)
 
+## Contributors
+
+**Ignacio Cordoba**
+- About me: [Nachovz](https://github.com/nachovz)
+
 ## License
 
 This project is licensed under the MIT License
+
+## Do's and dont's of this installation
+* **Do** change the composer.json, and adjust it to your needs.
+* **Don't** [change the Wordpress core](https://getflywheel.com/layout/wp-core/)
+* **Do** follow Wordpress' best practices.
     
 ## More WordPress plugins?
 
