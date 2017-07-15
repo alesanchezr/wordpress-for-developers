@@ -10,8 +10,6 @@
 		<div class="container">
             <div class="site-info">
                 &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
-                <span class="sep"> | </span>
-                <a class="credits" href="http://afterimagedesigns.com/wp-bootstrap-starter/" target="_blank" title="Wordpress Bootstrap" alt="Wordpress Bootstrap"><?php echo esc_html__('Wordpress Bootstrap','wp-bootstrap-starter'); ?></a>
 
             </div><!-- close .site-info -->
 		</div>
