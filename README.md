@@ -99,7 +99,7 @@ $ composer install
 
 **Alejandro Sanchez**
 - Repository website: [Wordpress For Developers](https://github.com/alesanchezr/wordpress-for-developers)
-- About me: [alesanchezr.com](alesanchezr.com)
+- About me: [alesanchezr.com](http://alesanchezr.com)
 
 ## Contributors
 
