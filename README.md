@@ -89,10 +89,17 @@ This is what makes it sexy:
 
 * (Optional) **[Install composer](https://getcomposer.org/download/)**
 
-7. **If everything is ok, check your composer.json remove or add any plugins based on your taste and run:**
+6. **If everything is ok, check your composer.json remove or add any plugins based on your taste and run:**
 
 ```sh
 $ composer install
+```
+
+### Other steps
+* Lit the themes. Then change the theme
+```sh
+$ wp theme list
+$ wp theme activate <theme_name>
 ```
 
 ## Author
