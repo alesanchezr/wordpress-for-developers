@@ -14,9 +14,9 @@ This is what makes it sexy:
 
 ## Step by step usage
 
-0. **Clone this repository and change the remote to your own repository**
+0. **Clone this repository and change the remote to your own repository** (mind the dot at clone)
     ```sh
-    $ git clone git@github.com:alesanchezr/wordpress-for-developers.git
+    $ git clone git@github.com:alesanchezr/wordpress-for-developers.git .
     
     $ git remote set-url origin {your repository url here}
     ```
