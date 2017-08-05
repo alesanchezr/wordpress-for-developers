@@ -21,28 +21,8 @@ This is what makes it sexy:
     $ git remote set-url origin {your repository url here}
     ```
 **Note**: if you are cloning into an existing wordpress installation you'll get the: 
-**destination path '.' already exists and is not an empty directory.**
-if so, run this git commands to make it work:
+**destination path '.' already exists and is not an empty directory.** [Click here to solve](https://github.com/alesanchezr/wordpress-for-developers/blob/master/existing_folder.md).
 
-- Clone just the repository's .git folder (excluding files as they are already in 'existing-dir') into an empty temporary directory. Might want --no-hardlinks for cloning local repo.
-	```sh
-	$ git clone --no-checkout repo-to-clone existing-dir/existing-dir.tmp
-	```
-- Move the .git folder to the directory with the files. This makes 'existing-dir' a git repo.
-	```sh
-	$ mv existing-dir/existing-dir.tmp/.git existing-dir/
-	```
-- Delete the temporary directory.
-	```sh
-	$ rmdir existing-dir/existing-dir.tmp
-
-	$ cd existing-dir
-	```
-- GIT thinks all files are deleted, this reverts the state of the repo to HEAD.
-WARNING: any local changes to the files will be lost.
-	```sh
-	$ git reset --hard HEAD
-	```
 
 1. **Install WP-CLI: [http://wp-cli.org](http://wp-cli.org/#installing)**
 
