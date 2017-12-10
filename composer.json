@@ -9,6 +9,6 @@
         "wpackagist-plugin/akismet": "*"
     },
     "require-dev": {
-        "wpackagist-plugin/transients-manager": "*"
+        
     }
 }
