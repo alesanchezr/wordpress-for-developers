@@ -5,11 +5,10 @@
 This is the sexiest toolset built on top of Wordpress, it has all you need to start coding right away.
 
 This is what makes it sexy:
-- **Beautifully looking out-of-the-box**: extends the [_tk parent theme](https://github.com/Themekraft/_tk), one of the most recomended base themes with Bootstrap 3.
-- **Organized package manager**: use [Composer](https://wpackagist.org/) as package manager for everything, including plugins. That means no need for admin screens.
+
 - **Command and conquer**: use the command line to install and manage wordpress ([WP-CLI](http://wp-cli.org/)). That means no need for admin screens.
+- **Organized package manager**: use [Composer](https://wpackagist.org/) as package manager for everything, including plugins. That means no need for admin screens.
 - **Ignore the noise**: it comes with the perfect .gitignore to only upload the necessary files. 
-- **Database evolved**: Laravel Eloquent ORM [Eloquent ORM](https://github.com/tareq1988/wp-eloquent) (use the WP_Query or any other WordPress function if your are working on your own tables).
 - **Plus, some tech swag**: it includes a few recommended plugins on composer.json; and a lot of examples on how to do stuff inside your wordpress.
 
 ## Step by step usage
