@@ -17,7 +17,7 @@ This is what makes it sexy:
     ```sh
     $ git clone git@github.com:alesanchezr/wordpress-for-developers.git .
     
-    $ git remote set-url origin {your repository url here}
+    $ git remote set-url origin your-repository-url-here
     ```
 **Note**: if you are cloning into an existing wordpress installation you'll get the: 
 **destination path '.' already exists and is not an empty directory.** [Click here to solve](https://github.com/alesanchezr/wordpress-for-developers/blob/master/existing_folder.md).
