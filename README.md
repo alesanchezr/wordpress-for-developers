@@ -87,7 +87,8 @@ This is what makes it sexy:
     ```sh
     $ wp core install --url=domain.com --title="First Attempt" --admin_user=yourusername --admin_password=yourpassword --admin_email=your@email.com
     ```
-    Test your wordpress instalation (login) by going to */wp-admin*
+    
+Test your wordpress instalation: browse *your-domain.com* and (login) by going to *your-domain.com/wp-admin*
 
 * (Optional) **[Install composer](https://getcomposer.org/download/)**
 
