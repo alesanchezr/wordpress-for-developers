@@ -71,7 +71,7 @@ This is what makes it sexy:
 3. **Generate configuration file (wp-config.php)**
 
     ```sh
-    $ wp core config --dbname={yourdatabase} --dbuser={yourusername} --dbpass={YOUR DATABASE PASSWORD}
+    $ wp core config --dbname=yourdatabase --dbuser=yourusername --dbpass=YOUR DATABASE PASSWORD
     ```
 
       * (Optional)**Create database for your installation** 
@@ -85,7 +85,7 @@ This is what makes it sexy:
    You will need the domain, title and admin information at hand.
    
     ```sh
-    $ wp core install --url={domain.com} --title="First Attempt" --admin_user={yourusername} --admin_password={yourpassword} --admin_email={your@email.com}
+    $ wp core install --url=domain.com --title="First Attempt" --admin_user=yourusername --admin_password=yourpassword --admin_email=your@email.com
     ```
     Test your wordpress instalation (login) by going to */wp-admin*
 
